@@ -14,7 +14,7 @@ POST http://localhost:3000/auth/signup HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "abdullah.ashik.arefin@gmail.com",
+    "email": "abdullah@gmail.com",
     "password": "12345",
     "id": 1
 }
@@ -22,6 +22,6 @@ Content-Type: application/json
 
 ### Get user information
 GET http://localhost:3000/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiYWJkdWxsYWguYXNoaWsuYXJlZmluQGdtYWlsLmNvbSIsImlhdCI6MTc1NDY0Mjg4OSwiZXhwIjoxNzU0NjQzNzg5fQ.kEpJE1Om8ECw8AEy05haaujSqTmPJ1Pgg5y2XJ_0p-Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiYWJkdWxsYWguYXNoaWsuYXJlZmluQGdtYWlsLmNvbSIsImlhdCI6MTc1NDY0MzY2NCwiZXhwIjoxNzU0NjQ0NTY0fQ.mOp-EO_niv2sfEb-ii1oT5HQ3rDZGQ8PM98qbRx8xL8
 Content-Type: application/json
 Accept: application/json
