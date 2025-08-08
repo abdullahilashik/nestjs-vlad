@@ -14,7 +14,7 @@ export class AuthController {
     async signin(@Body() authDto: AuthDto){                
         const isLoggedIn = await this.authService.signin(authDto);
         if(isLoggedIn){
-            return 'Logged in';
+            return isLoggedIn;
         }
         return 'Failed to loign';
     }

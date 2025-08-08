@@ -18,3 +18,10 @@ Content-Type: application/json
     "password": "12345",
     "id": 1
 }
+
+
+### Get user information
+GET http://localhost:3000/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiYWJkdWxsYWguYXNoaWsuYXJlZmluQGdtYWlsLmNvbSIsImlhdCI6MTc1NDY0Mjg4OSwiZXhwIjoxNzU0NjQzNzg5fQ.kEpJE1Om8ECw8AEy05haaujSqTmPJ1Pgg5y2XJ_0p-Y
+Content-Type: application/json
+Accept: application/json
